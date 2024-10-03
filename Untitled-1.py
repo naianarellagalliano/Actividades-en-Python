@@ -1,0 +1,7 @@
+primer_numero = int(input("Ingrese un número: "))
+segundo_numero = int(input("Ingrese un número: "))
+print("La suma es", primer_numero + segundo_numero)
+print("La multilicación es", primer_numero * segundo_numero)
+print("¿Los numeros son iguales?", primer_numero == segundo_numero)
+print("¿El primer numero es menor que el segundo?", primer_numero < segundo_numero)
+print("¿El segundo numero es mayor o igual al primero?", segundo_numero >= primer_numero)
