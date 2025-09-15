@@ -1,0 +1,9 @@
+pswd_real = "python123"
+pswd_user = ""
+
+while pswd_user != pswd_real:
+    pswd_user = input("Contraseña: ")
+    if pswd_user != pswd_real:
+        print("Contraseña incorrecta")
+print("¡Contraseña correcta!")
+print("Acceso concedido")
